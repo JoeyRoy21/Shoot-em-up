@@ -43,6 +43,9 @@ public class Bullet : MonoBehaviour, IPooledObject
         throw new System.NotImplementedException();
     }
 
+    // To run separte from updates
+    // Function that can wait independently from the rest 
+    
     public void OnEnable()
     {
         StartCoroutine("Disable");
@@ -50,6 +53,7 @@ public class Bullet : MonoBehaviour, IPooledObject
 
     }
 
+    // waiting 3 secs to turn off the game object
     public IEnumerator Disable()
     {
         yield return new WaitForSeconds(3);

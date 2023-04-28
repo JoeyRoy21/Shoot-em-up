@@ -512,6 +512,14 @@ PrefabInstance:
       propertyPath: objectPooler
       value: 
       objectReference: {fileID: 2004295402}
+    - target: {fileID: 7037296399033562264, guid: e01220dc0b442124c8b69933f1fb4dec, type: 3}
+      propertyPath: m_Offset.x
+      value: 11.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037296399033562265, guid: e01220dc0b442124c8b69933f1fb4dec, type: 3}
+      propertyPath: m_Offset.x
+      value: -8.52
+      objectReference: {fileID: 0}
     - target: {fileID: 7037296399033562342, guid: e01220dc0b442124c8b69933f1fb4dec, type: 3}
       propertyPath: m_Name
       value: Bounds
